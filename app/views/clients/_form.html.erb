@@ -13,15 +13,10 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1><%= @client.name %>
-        <div class="pull-right">
-          <small><%= @client.sponsor %></small>
-        </div>
-      </h1>
 
       <div class="field form-group col-md-6">
         <%= f.label :name %>
-        <%= f.text_field :name, type: 'email', class: 'form-control' %>
+        <%= f.text_field :name, class: 'form-control' %>
       </div>
 
       <div class="field form-group col-md-6">
@@ -36,17 +31,17 @@
 
       <div class="field form-group col-md-6">
         <%= f.label :phone %>
-        <%= f.text_field :phone, class: 'form-control' %>
+        <%= f.telephone_field :phone, class: 'form-control' %>
       </div>
 
       <div class="field form-group col-md-6">
         <%= f.label :cell_phone %>
-        <%= f.text_field :cell_phone, class: 'form-control' %>
+        <%= f.telephone_field :cell_phone, class: 'form-control' %>
       </div>
 
       <div class="field form-group col-md-6">
         <%= f.label :email %>
-        <%= f.text_field :email, class: 'form-control' %>
+        <%= f.email_field :email, type: 'email', class: 'form-control' %>
       </div>
 
       <div class="field form-group col-md-6">
@@ -70,7 +65,7 @@
       </div>
 
       <div class="actions pull-right">
-        <%= f.submit 'Enviar', type: 'button', class: 'btn btn-primary' %>
+        <%= f.submit 'Enviar', class: 'btn btn-primary' %>
       </div>
 
     </div>
