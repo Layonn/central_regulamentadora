@@ -1,25 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  cnpj: MyString
-  sponsor: MyString
-  phone: MyString
-  cell_phone: MyString
-  email: MyString
-  street: MyString
-  address_number: MyString
-  city: MyString
-  state: MyString
+valid_client:
+  name: Layonn LTDA
+  cnpj: 11122233344
+  sponsor: Layonn
+  phone: 1133332222
+  cell_phone: 11999999999
+  email: layonn@example.com
+  street: Anywhere
+  address_number: 1
+  city: Somewhere
+  state: Another one
 
-two:
-  name: MyString
-  cnpj: MyString
-  sponsor: MyString
-  phone: MyString
-  cell_phone: MyString
-  email: MyString
-  street: MyString
-  address_number: MyString
-  city: MyString
-  state: MyString
+double_cnpj:
+  name: Layonn LTDA
+  cnpj: 123456789789
+  sponsor: Layonn
+  phone: 1133332222
+  cell_phone: 11999999999
+  email: layonn@example.com
+  street: Anywhere
+  address_number: 1
+  city: Somewhere
+  state: Another one
